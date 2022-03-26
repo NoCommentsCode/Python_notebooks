@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Heroes & Generals Calculator</title>
+    <link rel="stylesheet" href="dudwire.css" />
+    <script type="text/javascript" src="./lib/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./lib/chartjs-2.9.4.min.js"></script>
+
+    <script type="text/javascript" src="./pages/weapons/results/misc-results.js"></script>
+    <script type="text/javascript" src="./pages/weapons/results/antitank-results.js"></script>
+    <script type="text/javascript" src="./pages/weapons/results/explosives-results.js"></script>
+    <script type="text/javascript" src="./pages/weapons/results/default-results.js"></script>
+    <script type="text/javascript" src="./pages/weapons/weapons.js"></script>
+    <script type="text/javascript" src="./pages/vehicles/results/weapon-stats/default-results.js"></script>
+    <script type="text/javascript" src="./pages/vehicles/vehicles.js"></script>
+    <script type="text/javascript" src="./hng-api.js"></script>
+    <script type="text/javascript" src="./dudwire.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <ul class="navbar">
+        <li class="navbar-title">Heroes & Generals Calculator</li>
+        <li class="navbar-item">
+          <a id="navbar-weapons" href="?page=weapons">Weapons</a>
+        </li>
+        <li class="navbar-item">
+          <a id="navbar-vehicles" href="?page=vehicles">Vehicles</a>
+        </li>
+        <li style="float: right" class="navbar-about">
+          <a id="navbar-about-link" href="?page=about">About</a>
+        </li>
+        <li style="float: right" class="navbar-version"></li>
+      </ul>
+    </div>
+    <div class="overlay">
+      <h1 class="loading-text" style="text-align: center; padding-top: 300px; font-size: 100px;">Loading...</h1>
+    </div>
+    <div class="main-content"></div>
+  </body>
+</html>

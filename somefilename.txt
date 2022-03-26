@@ -1,0 +1,10 @@
+#s    
+ Layout
+#s    
+   HT    Fin
+#10.0f   #10.0f 
+ 123 3456
+#s    
+ Wing Section
+#s   #10.5f 
+ ARW=      23.45
